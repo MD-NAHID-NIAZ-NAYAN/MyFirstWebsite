@@ -1,19 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Website</title>
-    <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            text-align: center; 
-            margin-top: 50px; 
-        }
-        h1 { color: blue; }
-        p { font-size: 20px; }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD. NAHID NIAZ NAYAN - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My First Website!</h1>
-    <p>This is my test website on Vercel 🌟</p>
+
+    <!-- Maintenance Alert -->
+    <div class="maintenance-alert">
+        ⚠️ This website is currently under maintenance.
+    </div>
+
+    <!-- Interactive background -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Header -->
+    <header class="header-container">
+        <div class="content-left">
+            <h1 class="animated-text">Welcome to My Portfolio</h1>
+            <p class="animated-text delay">
+                I am <a href="https://www.facebook.com/md.nahid.niaz.nayan.bracu.ac.bd/" target="_blank">MD. NAHID NIAZ NAYAN</a>, currently an undergraduate student in Computer Science and Engineering (CSE) at 
+                <a href="https://www.bracu.ac.bd" target="_blank">BRAC University</a>.
+            </p>
+            <p class="animated-text delay-2">
+                I love coding, creating web projects, and exploring new technologies.
+            </p>
+            <p class="animated-text delay-3">
+                📧 Email: <a href="mailto:nahid.niaz.nayan@g.bracu.ac.bd">nahid.niaz.nayan@g.bracu.ac.bd</a>
+            </p>
+        </div>
+
+        <div class="content-right animated-text delay-4">
+            <img src="profile.jpg" alt="Profile Image" class="profile-image">
+        </div>
+    </header>
+
+    <!-- Cards Section -->
+    <main class="cards-section">
+        <section class="cards">
+            <div class="card">
+                <h2>HTML</h2>
+                <p>Structuring websites efficiently.</p>
+            </div>
+            <div class="card">
+                <h2>CSS</h2>
+                <p>Making websites beautiful and responsive.</p>
+            </div>
+            <div class="card">
+                <h2>JavaScript</h2>
+                <p>Adding interactivity and animations.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© MD. NAHID NIAZ NAYAN. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="background.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
